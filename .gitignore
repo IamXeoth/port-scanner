@@ -1,1 +1,15 @@
+cat > .gitignore << 'EOF'
+# Resultados de scan
+*.json
+*.log
+*.txt
 
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+EOF
